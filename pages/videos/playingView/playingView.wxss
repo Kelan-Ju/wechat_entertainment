@@ -1,0 +1,30 @@
+/* pages/videos/playingView/playingView.wxss */
+
+.bg-view {
+  margin: 0rpx;
+  width: 750rpx;
+  height: 1334rpx;
+}
+
+.video {
+  margin: 0rpx;
+  width: 750rpx;
+  height: 563rpx;
+}
+
+.title {
+  margin: 10rpx;
+  width: 730rpx;
+  font-size: 17px;
+}
+
+.description {
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  width: 730rpx;
+  font-size: 15px;
+  color: gray;
+
+  /* 文字缩进 */
+  text-indent: 40rpx;
+}

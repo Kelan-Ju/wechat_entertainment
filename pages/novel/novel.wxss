@@ -1,0 +1,89 @@
+/* pages/novel/novel.wxss */
+
+.item-view {
+  margin: 0rpx 0rpx 20rpx 0rpx;
+  width: 750rpx;
+  height: 375rpx;
+  box-shadow:0px 0px 5px 5px #eef0ed;
+  /* background-color: yellowgreen; */
+}
+
+.cover {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 250rpx;
+  height: auto;
+  float: left;
+}
+
+.info-view {
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+  width: 465rpx;
+  height: auto;
+  float: left;
+  /* background-color: yellow; */
+}
+
+.book-name {
+  margin: 0rpx;
+  width: 100%;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.author-name {
+  margin-top: 20rpx;
+  margin-left: 0rpx;
+  font-size: 14px;
+  line-height: 14px;
+  color: gray
+}
+
+.type {
+  margin-top: 15rpx;
+  width: 100%;
+  font-size: 14px;
+  line-height: 14px;
+  color: gray;
+  float: left;
+}
+
+.tag-view {
+  margin-top: 15rpx;
+  margin-left: 0rpx;
+  width: 100%;
+  height: 35rpx;
+  float: left;
+}
+
+.tag {
+  margin-top: 0rpx;
+  margin-right: 15rpx;
+  padding: 0rpx 5rpx;
+  width: auto;
+  height: 35rpx;
+  font-size: 11px;
+  border-radius:10rpx;
+  border: 1rpx gray solid;
+  color: gray;
+  float: left;
+}
+
+.introduction {
+  margin-top: 30rpx;
+  margin-left: 0rpx;
+  font-size: 15px;
+  color: rgb(83, 82, 82);
+  float: left;
+
+  /* 文字缩进 */
+  text-indent: 10rpx;
+  
+  /*只显示三行  */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+}

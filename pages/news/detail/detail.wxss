@@ -1,0 +1,6 @@
+/* pages/detail/detail.wxss */
+.web-view {
+  margin: 0rpx;
+  width: 750rpx;
+  height: 1334rpx;
+}

@@ -1,0 +1,14 @@
+<!--pages/novel/novel.wxml-->
+<loading hidden="{{dataArray!=null}}">加载中...</loading>
+<view class='item-view' wx:for='{{dataArray}}'>
+  <image class='cover' src='{{item.book_cover}}' mode="widthFix"></image>
+  <view class='info-view'>
+    <view class='book-name'>{{item.bookname}}</view>
+    <view class='author-name'>作者：{{item.author_name}}</view>
+    <view class='type'>类型：{{item.class_name}}</view>
+    <view class='tag-view'>
+      <view class='tag' wx:for='{{item.tag}}' wx:for-item='tag'>{{tag}}</view>
+    </view>
+    <text class='introduction'>{{item.introduction}}</text>
+  </view>
+</view>

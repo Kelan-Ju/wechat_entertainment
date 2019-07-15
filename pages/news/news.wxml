@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<loading hidden="{{newsData!=null}}">加载中...</loading>
+<!-- 分类 -->
+<scroll-view class='category' scroll-x>
+  <block wx:for='{{newsData}}' wx:for-index='key'>
+    <text wx:if='{{category == key}}' class='category-item-selected' bindtap='categoryClick' data-item='{{item}}' data-key='{{key}}'>{{getTitle.func(item)}}</text>
+    <text wx:else class='category-item' bindtap='categoryClick' data-item='{{item}}' data-key='{{key}}'>{{getTitle.func(item)}}</text>
+  </block>
+</scroll-view>
+<!-- 列表 -->
+<view class='news-list-bg'>
+  <block wx:for='{{categoryData}}'>
+    <view class='news-list-view' bindtap='viewDetail' data-data='{{item}}'>
+      <!-- 标题 -->
+      <view class='title'>{{item.title}}</view>
+      <!-- 信息 -->
+      <view class='information'>
+        <text class='put-source'>来源：{{item.source}}</text>
+        <!-- .substring(11,5) -->
+        <text class='time'>{{util.sub(item.ptime)}}</text>
+      </view>
+
+      <!-- 图片列表 -->
+      <view class='image-bg'>
+        <block wx:for='{{item.picInfo}}' wx:for-item='imageItem'>
+          <image class='image' src='{{imageItem.url}}' mode="aspectFill" catchtap='previewImage' data-items='{{item.picInfo}}'  data-url='{{imageItem.url}}'></image>
+        </block>
+      </view>
+      <!-- 内容摘要 -->
+      <view class='digest'>{{item.digest}}</view>
+    </view>
+  </block>
+</view>
+
+<!-- 对时间字符串截取 -->
+<wxs module="util">
+  var sub = function(val) {
+    return val.substring(5, 16)
+  }
+  module.exports.sub = sub;
+</wxs>
+
+<!-- 获取标题 -->
+<wxs module="getTitle">
+  var func = function(item) {
+    return item[2].category
+  }
+  module.exports.func = func;
+</wxs>

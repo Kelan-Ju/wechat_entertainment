@@ -1,0 +1,6 @@
+<!--pages/videos/playingView/playingView.wxml-->
+<view class='bg-view'>
+  <video class='video' src='{{playUrl}}' controls autoplay objectFit='contain' direction='90'></video>
+  <view class='title'>{{title}}</view>
+  <view class='description'>{{description}}</view>
+</view>

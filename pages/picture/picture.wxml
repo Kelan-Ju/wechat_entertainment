@@ -1,0 +1,6 @@
+<!--pages/picture/picture.wxml-->
+<loading hidden="{{dataArray!=null}}">加载中...</loading>
+<view class='item-view' wx:for='{{dataArray}}' wx:for-item='url'>
+  <image class='image' src='{{url}}' mode="widthFix" bindtap='previewImage' data-url='{{url}}' data-urls='{{dataArray}}'></image>
+  <!-- <text>{{item.url}}</text> -->
+</view>

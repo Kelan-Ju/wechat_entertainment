@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/news/news",
+    "pages/news/detail/detail",
+    "pages/videos/videos",
+    "pages/videos/playingView/playingView",
+    "pages/picture/picture",
+    "pages/novel/novel"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8fc320",
+    "navigationBarTitleText": "布丁娱乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "icons/news_normal.png",
+        "selectedIconPath": "icons/news_selected.png",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/videos/videos",
+        "iconPath": "icons/videos_normal.png",
+        "selectedIconPath": "icons/videos_selected.png",
+        "text": "视频推荐"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "iconPath": "icons/picture_normal.png",
+        "selectedIconPath": "icons/picture_selected.png",
+        "text": "美图"
+      },
+      {
+        "pagePath": "pages/novel/novel",
+        "iconPath": "icons/novel_normal.png",
+        "selectedIconPath": "icons/novel_selected.png",
+        "text": "小说推荐"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
