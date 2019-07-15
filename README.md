@@ -1,5 +1,5 @@
 一个娱乐项目，包含有新闻、推荐视频、美图、小说（无详情数据）
-divstyle=float:left;border:solid1px000;margin:2px;imgsrc=../images/QR-atm.pngwidth=200height=260/divdivstyle=float:left;border:solid1px000;margin:2px;imgsrc=../images/QR-Taobao.pngwidth=200height=260/div
+divstyle=float:left;border:solid1px000;margin:2px;imgsrc=https://github.com/Kelan-Ju/wechat_entertainment/blob/master/screenshot/applet_news.png?raw=true;width=200height=260/divdivstyle=float:left;border:solid1px000;margin:2px;imgsrc=https://github.com/Kelan-Ju/wechat_entertainment/blob/master/screenshot/applet_vedio.png?raw=true;width=200height=260/div
 新闻：
 ![news](https://github.com/Kelan-Ju/wechat_entertainment/blob/master/screenshot/applet_news.png?raw=true)
 视频推荐：
