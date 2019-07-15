@@ -1,9 +1,10 @@
-一个娱乐项目，包含有新闻、推荐视频、美图、小说（无详情数据） 
-新闻： 
+一个娱乐项目，包含有新闻、推荐视频、美图、小说（无详情数据）
+divstyle=float:left;border:solid1px000;margin:2px;imgsrc=../images/QR-atm.pngwidth=200height=260/divdivstyle=float:left;border:solid1px000;margin:2px;imgsrc=../images/QR-Taobao.pngwidth=200height=260/div
+新闻：
 ![news](https://github.com/Kelan-Ju/wechat_entertainment/blob/master/screenshot/applet_news.png?raw=true)
-视频推荐： 
+视频推荐：
 ![vedios](https://github.com/Kelan-Ju/wechat_entertainment/blob/master/screenshot/applet_vedio.png?raw=true)
-美图： 
+美图：
 ![photos](https://github.com/Kelan-Ju/wechat_entertainment/blob/master/screenshot/applet_photo.png?raw=true)
-小说推荐： 
+小说推荐：
 ![novesl](https://github.com/Kelan-Ju/wechat_entertainment/blob/master/screenshot/applet_novel.png?raw=true)
