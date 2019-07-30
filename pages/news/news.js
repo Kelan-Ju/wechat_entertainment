@@ -36,6 +36,7 @@ Page({
   }, 
 
   categoryClick: function(e) {
+    this.goTop();
     var item = e.currentTarget.dataset.item
     var key = e.currentTarget.dataset.key
     var that = this
@@ -43,6 +44,15 @@ Page({
       categoryData: item,
       category: key
     })
+  },
+
+  //回到顶部
+  goTop: function (e) {  // 一键回到顶部
+    if (wx.pageScrollTo) {
+      wx.pageScrollTo({
+        scrollTop: 0
+      })
+    }
   },
 
   // 查看详情
