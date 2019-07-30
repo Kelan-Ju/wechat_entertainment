@@ -1,8 +1,5 @@
 // pages/videos/videos.js
 Page({
-  // "usingComponents": {
-  //   "waterfallView": "../../component/waterfallView/waterfallView" 
-  // },
   /**
    * 页面的初始数据
    */

@@ -6,9 +6,7 @@
   width: 750rpx;
   height: 74rpx;
   background-color: yellowgreen;
-  /* display: flex; */
   white-space: nowrap;
-  /* float: left; */
 }
 
 .category-item {
@@ -41,6 +39,7 @@
   width: 750rpx;
   height: auto;
   background-color: white;
+  float: left;
   border-bottom: 10rpx solid rgb(233, 231, 231);
 }
 
